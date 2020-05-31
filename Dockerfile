@@ -22,6 +22,7 @@ COPY michelson_quickstart.ipynb ${HOME}/
 COPY MichelsonTutorial-Demo1.ipynb ${HOME}/
 COPY MichelsonTutorial-Demo2.ipynb ${HOME}/
 COPY MichelsonTutorial-Demo3.ipynb ${HOME}/
+COPY MichelsonTutorial-Demo4.ipynb ${HOME}/
 RUN chown -R ${NB_USER}:${NB_USER} ${HOME}/
 
 WORKDIR ${HOME}
